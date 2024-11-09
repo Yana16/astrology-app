@@ -109,7 +109,7 @@ body * {
   color: wheat;
 }
 p{
-  font-size: 1em;
+  font-size: 2.5vw;
 
 }
 .fixed-top{
@@ -193,8 +193,7 @@ flex-direction: column;
 }
 .subText_h2 {
   margin-bottom: 8vw;
-  font-size: 1.2em;
-    font-style: italic;
+  font-style: italic;
 }
 
 #bg{
@@ -244,7 +243,7 @@ flex-direction: column;
   font-size: 1.5em;
 }
 .card-text{
-  font-size: 1.2em;
+  font-size: 2.5vw;
 }
 .card-text1{
   font-size: 1em;

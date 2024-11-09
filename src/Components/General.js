@@ -66,12 +66,12 @@ function General() {
           <div class="text">
             <h1 class="text-title">Ілона Ковпан</h1>
             <h2 className="text_h2">Матриця долі та психологія</h2>
-            <h2 className="col-lg-8 d-inline-flex justify-content-center subText_h2">
+            <h1 className="col-lg-8 d-inline-flex justify-content-center subText_h2">
               Я допомагаю знайти ваші сильні сторони, розкрити фінансовий та
               особистий потенціал, створити гармонію у відносинах та подолати
               життєві труднощі за допомогою методу “Матриця Долі” та
               психологічних технік.
-            </h2>
+            </h1>
           </div>
         </div>
         <Row className="col-lg-4 col-md-6 col-sm-6 mx-auto mybutton">
