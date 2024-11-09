@@ -14,12 +14,12 @@ class Goal extends Component {
           <Row className="align-items-center flex-column">
             <Card.Body className="col-lg-10 mt-5 align-items-center flex-column">
               <Card.Text className="info-text">
-                <h1>
+                <p className="h1">
                   Своєю місією бачу - нести ясність людям в будь-яких питаннях,
                   щоб після спілкування зі мною у них з’являлася енергія на нові
                   дії. Моя задача : перетворювати складне і заплутане в легке і
                   зрозуміле.
-                </h1>
+                </p>
               </Card.Text>
             </Card.Body>
           </Row>
@@ -31,10 +31,10 @@ class Goal extends Component {
           <Row className="align-items-center flex-column">
             <Card.Body className="col-lg-10 mt-5 align-items-center flex-column">
               <Card.Text className="info-text">
-                <h1>
+                <p className="h1">
                   Пролити світло, в якій сфері лежать ваші гроші та допомогти
                   вам побачити нові способи збільшення доходів.
-                </h1>
+                </p>
               </Card.Text>
             </Card.Body>
           </Row>
@@ -47,11 +47,11 @@ class Goal extends Component {
           <Row className="align-items-center flex-column">
             <Card.Body className="col-lg-6 mt-5 align-items-center flex-column">
               <Card.Text className="goal-h3">
-                <h1>
+                <p className="h1">
                   Які внутрішні блоки та ствердження не дають заробляти
                   достатньо грошей для забезпечення того рівня життя, який ви
                   хочете.
-                </h1>
+                </p>
               </Card.Text>
             </Card.Body>
           </Row>
@@ -64,11 +64,11 @@ class Goal extends Component {
           <Row className="align-items-center flex-column">
             <Card.Body className="col-lg-6 mt-5 align-items-center flex-column">
               <Card.Text className="goal-h3">
-                <h1>
+                <p className="h1">
                   Дати вам покрокову стратегію, як правильно розприділяти
                   бюджет, щоб купувати те, що ви хочете і не економити на собі -
                   розроблена Робертом Кійосакі.
-                </h1>
+                </p>
               </Card.Text>
             </Card.Body>
           </Row>
@@ -81,10 +81,10 @@ class Goal extends Component {
           <Row className="align-items-center flex-column">
             <Card.Body className="col-lg-6 mt-5 align-items-center flex-column">
               <Card.Text className="goal-h3">
-                <h1>
+                <p className="h1">
                   Дати вам ключ до розуміння, чому ви не можете досягти своїх
                   фінансових цілей, і яка вигода прихована за цим.
-                </h1>
+                </p>
               </Card.Text>
             </Card.Body>
           </Row>
@@ -97,10 +97,10 @@ class Goal extends Component {
           <Row className="align-items-center flex-column">
             <Card.Body className="col-lg-6 mt-5 align-items-center flex-column">
               <Card.Text className="goal-h3">
-                <h1>
+                <p className="h1">
                   Поділитися технікою примноження фінансів, звільнення від
                   боргів, яка допомагає вийти за межі фінансової стелі.
-                </h1>
+                </p>
               </Card.Text>
             </Card.Body>
           </Row>

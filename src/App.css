@@ -108,10 +108,10 @@ body * {
   text-transform: uppercase; 
   color: wheat;
 }
-p{
+/* p{
   font-size: 2.5vw;
 
-}
+} */
 .fixed-top{
   text-transform: uppercase;   
 }   
@@ -187,7 +187,7 @@ flex-direction: column;
   text-transform: uppercase;
   color: #514833;
   font-weight: 800;
-  font-size: 3vw;
+  /* font-size: 3vw; */
   text-shadow: 1px 1px 2px #ffeb3b;
   margin-bottom: 3vw;
 }
@@ -242,9 +242,9 @@ flex-direction: column;
 .card-title {
   font-size: 1.5em;
 }
-.card-text{
+/* .card-text{
   font-size: 2.5vw;
-}
+} */
 .card-text1{
   font-size: 1em;
 }
@@ -280,7 +280,7 @@ flex-direction: column;
 
 .number {
   color: transparent;
-  font-size: 60px;
+  font-size: 6vw;
   font-weight: 800;
   /* color: #855757db; */
   /* text-shadow: 1px 2px 5px wheat; */
@@ -419,3 +419,46 @@ flex-direction: column;
 .form-floating>label {
   padding: unset;
 }
+
+@media screen and (max-width: 768px) {
+  .text-title{
+    font-size: 8vw;
+  }
+  .subText_h2 {
+    font-size: 5vw;
+  }
+  .text_h2 {
+    font-size: 5vw;
+  }
+  [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    font-size: 3.5vw;
+  }
+  p .h1 {
+    font-size: 5vw;
+  }
+  .text-general {
+    font-size: 5vw;
+  }
+ .h1 {
+  font-size: 5vw;
+  /* text-align: center; */
+ }
+ .h2 {
+  font-size: 5vw;
+ }
+ h1{
+  font-size: 5vw;
+ }
+ .number{
+  font-size: 8vw;
+ }
+
+ .text-center{
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+}
+.mybutton {
+  margin-top: 6vw;
+}
+}
+  
