@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/astrology-app/static/css/main.5298d579.css",
-    "main.js": "/astrology-app/static/js/main.3e7cafeb.js",
+    "main.css": "/astrology-app/static/css/main.4aa2457e.css",
+    "main.js": "/astrology-app/static/js/main.0f067252.js",
     "static/media/1-1-1.png": "/astrology-app/static/media/1-1-1.e305c8d380bdd27c2371.png",
     "static/media/background.jpg": "/astrology-app/static/media/background.0be7fb3df2d1db7b0a71.jpg",
     "static/media/general-1-2.png": "/astrology-app/static/media/general-1-2.740d532a667cb7914c59.png",
@@ -28,11 +28,11 @@
     "static/media/thumb.svg": "/astrology-app/static/media/thumb.2147cec06bb24656fc2b0360ac58f237.svg",
     "index.html": "/astrology-app/index.html",
     "static/media/facebook.svg": "/astrology-app/static/media/facebook.09c7f8da7bc26ef23ce2387fd31c18a5.svg",
-    "main.5298d579.css.map": "/astrology-app/static/css/main.5298d579.css.map",
-    "main.3e7cafeb.js.map": "/astrology-app/static/js/main.3e7cafeb.js.map"
+    "main.4aa2457e.css.map": "/astrology-app/static/css/main.4aa2457e.css.map",
+    "main.0f067252.js.map": "/astrology-app/static/js/main.0f067252.js.map"
   },
   "entrypoints": [
-    "static/css/main.5298d579.css",
-    "static/js/main.3e7cafeb.js"
+    "static/css/main.4aa2457e.css",
+    "static/js/main.0f067252.js"
   ]
 }
