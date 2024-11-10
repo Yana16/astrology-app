@@ -38,11 +38,11 @@ function General() {
       id="general"
       className="text-center justify-content-center"
     >
-      <div id="bg">
+      <Row id="bg">
         <img src={Background} class="img-fluid" alt="pic" />
-      </div>
+      </Row>
       <Row className="justify-content-center pb-5">
-        <div class="row justify-content-center new">
+        <Row class="justify-content-center new">
           <div id="foto1">
             <img
               src={Image1}
@@ -61,12 +61,12 @@ function General() {
               width="30%"
             />
           </div>
-        </div>
+        </Row>
         <div class="row justify-content-center align-items-center co-lg-12 col-md-12 ">
           <div class="text">
             <h1 class="text-title">Ілона Ковпан</h1>
-            <h2 className="text_h2">Матриця долі та психологія</h2>
-            <p className="col-lg-8 d-inline-flex justify-content-center subText_h2 h1">
+            <h2 className="text_h2 h2">Матриця долі та психологія</h2>
+            <p className="col-10 d-inline-flex justify-content-center subText_h2 h1 mt-5">
               Я допомагаю знайти ваші сильні сторони, розкрити фінансовий та
               особистий потенціал, створити гармонію у відносинах та подолати
               життєві труднощі за допомогою методу “Матриця Долі” та
@@ -74,7 +74,7 @@ function General() {
             </p>
           </div>
         </div>
-        <Row className="col-8 col-lg-4 mx-auto mybutton">
+        <Row className="col-8 col-lg-4 mx-auto mybutton mt-5">
           <Button
             className="my-btn btn btn-primary text-uppercase"
             onClick={handleShow}
@@ -96,7 +96,7 @@ function General() {
                 onChange={(e) => setName(e.target.value)}
                 required
                 type="text"
-                placeholder=""
+                placeholder="Ім'я"
               />
             </Form.Group>
 
@@ -115,13 +115,11 @@ function General() {
             </Form.Group>
             <FloatingLabel
               controlId="floatingTextarea"
-              label=""
               className="mb-3"
               value={comment}
               onChange={(e) => setComment(e.target.value)}
               required
               type="text"
-              placeholder=""
             >
               <Form.Control as="textarea" placeholder="Leave a comment here" />
             </FloatingLabel>
