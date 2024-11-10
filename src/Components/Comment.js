@@ -13,7 +13,7 @@ class Comment extends Component {
     };
 
     return (
-      <Container className="pt-5 pb-5">
+      <Container className="pt-5 pb-5" id="blog">
         <Disqus.DiscussionEmbed
           shortname={disqusShortname}
           config={disqusConfig}
