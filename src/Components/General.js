@@ -103,14 +103,14 @@ function General() {
             <Form.Group className="mb-3" controlId="validationCustom02">
               <Form.Label>Номер телефону</Form.Label>
               <Form.Control
-                // className="form-control-bg "
+                className="form-control-bg "
                 value={telephone}
-                onChange={(e) => setTelephone(e.target.value.replace(/\D/, ""))}
                 required
                 type="tel"
                 as={InputMask}
-                mask="+380 (00) 000-00-00"
-                placeholder="+380 (00) 000-00-00"
+                mask="+38 (999)-999-999"
+                placeholder="+38 (999)-999-999"
+                onChange={(e) => setTelephone(e.target.value)}
               />
             </Form.Group>
             <FloatingLabel
