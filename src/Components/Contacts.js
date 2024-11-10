@@ -13,22 +13,24 @@ class Contacts extends Component {
             Контакти
           </h2>
         </Row>
-        <Row className="col-12 pb-5 d-flex justify-content-center">
-          <Col className=" col-2 col-sm-4 text-center">
-            <a href="https://t.me/iamilonakovpan">
-              <Image src={Telegram} height="60" width="60" />
-            </a>
-          </Col>
-          <Col className=" col-2 col-sm-4 text-center">
-            <a href="https://www.instagram.com/lymonna_voda/profilecard/?igsh=eXFvbHRpN2F3ZWhw">
-              <Image src={Instagram} height="60" width="60" />
-            </a>
-          </Col>
-          <Col className=" col-2 col-sm-4 text-center">
-            <a href="https://www.facebook.com/profile.php?id=100011067484828&mibextid=LQQJ4d">
-              <Image src={Facebook} height="60" width="60" />
-            </a>
-          </Col>
+        <Row className="justify-content-center">
+          <Row className="col-6 pb-5 d-flex justify-content-center">
+            <Col className=" col-4 col-sm-4 text-center">
+              <a href="https://t.me/iamilonakovpan">
+                <Image src={Telegram} height="60" width="60" />
+              </a>
+            </Col>
+            <Col className=" col-4 col-sm-4 text-center">
+              <a href="https://www.instagram.com/lymonna_voda/profilecard/?igsh=eXFvbHRpN2F3ZWhw">
+                <Image src={Instagram} height="60" width="60" />
+              </a>
+            </Col>
+            <Col className=" col-4 col-sm-4 text-center">
+              <a href="https://www.facebook.com/profile.php?id=100011067484828&mibextid=LQQJ4d">
+                <Image src={Facebook} height="60" width="60" />
+              </a>
+            </Col>
+          </Row>
         </Row>
       </Container>
     );
