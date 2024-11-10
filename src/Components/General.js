@@ -74,7 +74,7 @@ function General() {
             </p>
           </div>
         </div>
-        <Row className="col-lg-4 col-sm-6  mx-auto mybutton">
+        <Row className="col-8 col-lg-4 mx-auto mybutton">
           <Button
             className="my-btn btn btn-primary text-uppercase"
             onClick={handleShow}

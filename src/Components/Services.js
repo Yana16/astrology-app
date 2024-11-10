@@ -14,7 +14,7 @@ class Services extends Component {
           defaultActiveKey="0"
           className="acc_text d-flex flex-column align-items-center justify-content-center"
         >
-          <Accordion.Item eventKey="0" className="col-10 shadow-lg mb-5">
+          <Accordion.Item eventKey="0" className="col-8 shadow-lg mb-5">
             <Accordion.Header>
               <p className="h1"> Швидка онлайн-консультація – 399 грн</p>
             </Accordion.Header>
@@ -34,7 +34,7 @@ class Services extends Component {
               </p>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="1" className="col-10 shadow-lg mb-5">
+          <Accordion.Item eventKey="1" className="col-8 shadow-lg mb-5">
             <Accordion.Header>
               <p className="h1"> Міні-діагностика Матриці Долі – 499 грн</p>
             </Accordion.Header>
@@ -57,7 +57,7 @@ class Services extends Component {
               </p>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="2" className="col-10 shadow-lg mb-5">
+          <Accordion.Item eventKey="2" className="col-8 shadow-lg mb-5">
             <Accordion.Header>
               <p className="h1">
                 Консультація з кармічного менеджменту – 799 грн
@@ -82,7 +82,7 @@ class Services extends Component {
               </p>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="3" className="col-10 shadow-lg mb-5">
+          <Accordion.Item eventKey="3" className="col-8 shadow-lg mb-5">
             <Accordion.Header>
               <p className="h1">
                 Консультація з аналізом певної життєвої сфери – 999 грн
@@ -109,7 +109,7 @@ class Services extends Component {
               </p>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="4" className="col-10 shadow-lg mb-5">
+          <Accordion.Item eventKey="4" className="col-8 shadow-lg mb-5">
             <Accordion.Header>
               <p className="h1">Поглиблений аналіз Матриці Долі – 1299 грн</p>
             </Accordion.Header>
@@ -134,7 +134,7 @@ class Services extends Component {
               </p>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="5" className="col-10 shadow-lg mb-5">
+          <Accordion.Item eventKey="5" className="col-8 shadow-lg mb-5">
             <Accordion.Header>
               <p className="h1">
                 Персональна програма кармічного менеджменту – 1999 грн
@@ -160,7 +160,7 @@ class Services extends Component {
               </p>
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey="6" className="col-10 shadow-lg mb-5">
+          <Accordion.Item eventKey="6" className="col-8 shadow-lg mb-5">
             <Accordion.Header>
               <p className="h1">
                 Комплексна консультація + 2 супровідні сесії – 2500 грн

@@ -202,7 +202,7 @@ flex-direction: column;
 }
 #foto1{
   position: absolute;
-  padding-top: 50px;
+  /* padding-top: 50px; */
 }
 
 #foto2{
@@ -460,5 +460,6 @@ flex-direction: column;
 .mybutton {
   margin-top: 6vw;
 }
+
 }
   
