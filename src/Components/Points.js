@@ -6,12 +6,13 @@ class Points extends Component {
     return (
       <Container className="purpose pb-5">
         <h2 class="text-center text-uppercase pb-5 pt-5 aboutme">Якщо Ви:</h2>
-        <Row lg={12} className="text-center">
+        <Row lg={12} className="text-center fst-italic">
           <Col lg={6} className="d-flex justify-content-around">
             <div className="goal_div col-10 mb-5">
               <i className="number">01</i>
               <p className="purpose_p h1">
-                Вже перепробували але так і не отримали бажаного результату;
+                Вже все перепробували, але так і не отримали бажаного
+                результату;
               </p>
             </div>
           </Col>

@@ -48,9 +48,8 @@ class Goal extends Component {
             <Card.Body className="col-lg-6 mt-5 align-items-center flex-column">
               <Card.Text className="goal-h3">
                 <p className="h1">
-                  Які внутрішні блоки та ствердження не дають заробляти
-                  достатньо грошей для забезпечення того рівня життя, який ви
-                  хочете.
+                  Які внутрішні блоки та твердження не дають заробляти достатньо
+                  грошей для забезпечення того рівня життя, який ви хочете.
                 </p>
               </Card.Text>
             </Card.Body>

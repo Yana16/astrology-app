@@ -79,7 +79,7 @@ function General() {
             className="my-btn btn btn-primary text-uppercase"
             onClick={handleShow}
           >
-            Отримати консультацію
+            Безкоштовна консультація
           </Button>
         </Row>
       </Row>
@@ -125,8 +125,8 @@ function General() {
             </FloatingLabel>
 
             <Modal.Footer className="d-flex justify-content-center">
-              <Button variant="primary" onClick={handleClose} type="submit">
-                Відправити відгук
+              <Button variant="primary" onClick={handleClose} type="submit ">
+                ВІДПРАВИТИ ЗАМОВЛЕННЯ
               </Button>
             </Modal.Footer>
           </Form>

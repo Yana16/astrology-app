@@ -66,7 +66,7 @@
 }
 .header {
 font-size: 24px;
-background-color: #736b0d;
+background-color: #591038;
 }
 
 .shadow {
@@ -125,7 +125,7 @@ body * {
   font-weight: 800;
 }
 .mybutton {
-  background-color: #513c36;
+  background-color: #591038;
   border-color: #513c36;
   border-radius: 45px;
   box-shadow: 1px 0px 5px 0px #4f3504;
@@ -182,13 +182,12 @@ flex-direction: column;
   -webkit-background-clip: text;
 }
 
-
 .text_h2 {
   text-transform: uppercase;
-  color: #514833;
+  color: #f5e9817a;
   font-weight: 800;
   font-size: 3.5vw;
-  text-shadow: 1px 1px 2px #ffeb3b;
+  text-shadow: 1px 1px 0px #d3c03bd9;
   margin-bottom: 3vw;
 }
 .subText_h2 {
@@ -427,7 +426,7 @@ flex-direction: column;
   width: 100%;
   color: var(--bs-modal-color);
   pointer-events: auto;
-  background-color: #08053d;
+  background-color: #591038;
   background-clip: padding-box;
   border: var(--bs-modal-border-width) solid var(--bs-modal-border-color);
   border-radius: var(--bs-modal-border-radius);
