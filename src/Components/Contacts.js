@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Container, Col, Row, Image } from "react-bootstrap";
-import Telegram from "./telegram.svg";
-import Instagram from "./instagram.svg";
-import Facebook from "./facebook.svg";
+import Telegram from "./images/telegram.svg";
+import Instagram from "./images/instagram.svg";
+import Facebook from "./images/facebook.svg";
 
 class Contacts extends Component {
   render() {

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Container } from "react-bootstrap";
-import Disqus, { DiscussionEmbed } from "disqus-react";
-import { CommentCount } from "disqus-react";
+import Disqus from "disqus-react";
 
 class Comment extends Component {
   render() {

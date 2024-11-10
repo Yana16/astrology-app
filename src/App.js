@@ -8,7 +8,6 @@ import Services from "./Components/Services";
 import Contacts from "./Components/Contacts";
 import General from "./Components/General";
 import Comment from "./Components/Comment";
-// import ListOfComments from "./Components/ListOfComments";
 import Certificates from "./Components/Certificates";
 import Carusel from "./Components/Carusel";
 import Modal from "react-modal";
@@ -26,8 +25,6 @@ function App() {
       <Points />
       <Services />
       <Carusel />
-      {/* <ListOfComments /> */}
-      {/* <Comments /> */}
       <Comment />
       <Contacts />
     </>

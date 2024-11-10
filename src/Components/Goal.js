@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Card, Image, Row } from "react-bootstrap";
-import Icon from "./thumb.svg";
+import Icon from "./images/thumb.svg";
 
 class Goal extends Component {
   render() {
@@ -17,9 +17,7 @@ class Goal extends Component {
                 <p className="h1">
                   Моя місія — допомогти вам знайти ясність у будь-яких питаннях,
                   щоб після нашого спілкування ви відчували заряд енергії для
-                  нових дій. Моє завдання — перетворити складне на зрозуміле,
-                  пролити світло на сфери, де лежить ваш фінансовий потенціал,
-                  та показати нові способи збільшення доходів.
+                  нових дій.
                 </p>
               </Card.Text>
             </Card.Body>
@@ -33,8 +31,9 @@ class Goal extends Component {
             <Card.Body className="col-lg-10 mt-5 align-items-center flex-column">
               <Card.Text className="info-text">
                 <p className="h1">
-                  Пролити світло, в якій сфері лежать ваші гроші та допомогти
-                  вам побачити нові способи збільшення доходів.
+                  Моє завдання — перетворити складне на зрозуміле, пролити
+                  світло на сфери, де лежить ваш фінансовий потенціал, та
+                  показати нові способи збільшення доходів.
                 </p>
               </Card.Text>
             </Card.Body>
