@@ -108,8 +108,8 @@ function General() {
                 required
                 type="tel"
                 as={InputMask}
-                mask="+38 (999)-999-999"
-                placeholder="+38 (999)-999-999"
+                mask="+38 (999)-999-99-99"
+                placeholder="+38 (999)-999-99-99"
                 onChange={(e) => setTelephone(e.target.value)}
               />
             </Form.Group>

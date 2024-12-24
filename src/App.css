@@ -177,7 +177,6 @@ flex-direction: column;
   border-radius: 60% 60% 60% 60% / 30% 30% 30% 30%;
 }
 .info {
-  /* background: linear-gradient(180deg, #08053d, #08053d); */
   background-color: #08053d;
 }
 .goal_div{
@@ -244,8 +243,6 @@ flex-direction: column;
 }
 .accordion-button{
   border-radius: 25px;
-  /* --bs-accordion-btn-color:#1c0707c4; */
-  /* --bs-accordion-btn-bg: #736b0d; */
   color: transparent;
   background-image: linear-gradient(to right, #462523 0%, #cb9b51 5%, #f6e27a 20%, #f6f2c0 20%, #f6e27a 10%, #cb9b51 95%, #462523 100%);
   -webkit-background-clip: text;
@@ -300,7 +297,6 @@ flex-direction: column;
 }
 .carousel-item {
   position: relative;
-  /* display: flex; */
   justify-content: center;
   float: left;
   width: 100%;
